@@ -50,49 +50,10 @@ RAP通过GUI工具帮助WEB工程师更高效的管理接口文档，同时通�
 * Deploy: Tomcat + Docker
 * CI: Travis
 
-## 订阅RAP更新?
-
-为了在有新Release、发现重大安全漏洞时能够及时的通知到各位管理员，请关注 [订阅帖](https://github.com/thx/RAP/issues/234)
-
- 
-## About
-
-    @version     v0.14.1
-    @author      @bosn @wangjeaf
-    @director    @limu @xinglie
-    @update      Oct. 13th 2015
-    @dependency  MockJS(@nuysoft)
-    @license     GPL
-
-## Contact
-
-    @问题反馈   https://github.com/thx/RAP/issues (推荐)
-    @旺旺群聊   582755829 (找到小伙伴)
-    @作者微博   http://weibo.com/bosn (求粉:3  )
-    
-## Contributors List 贡献者
-
-`belerweb`, `xinglie`, `nunnly`, `x03570227`, `jokefaker`, etc.
-
-[Contributors Details](https://github.com/thx/RAP/graphs/contributors)
-
-## 赞助商
-* 感谢[阿里云](http://www.aliyun.com)赞助服务器
-
-## 其它链接
-* THX开源工具集: [http://thx.github.io/](http://thx.github.io/)
-* 作者微博：[@Bosn](http://weibo.com/bosn)
-
-## RAP的客户
-* 阿里巴巴集团
-* 蚂蚁金服
-* Boss直聘
-* 苏州白鸽云信息技术有限公司
-* 厦门优优汇联信息科技有限公司
-* 杭州匠人网络科技有限公司
-* 深圳润民科技有限公司
-* 南京爱动信息技术有限公司
-* 智能云科信息科技有限公司
+###rap-performmance的改动点
+在原有的rapv0.14.1beta版上增加上增加了性能基数项。
+接口具有多种属性，其中一种属性是性能属性，一个接口在特定环境和特定压力下表现出的tps和响应值，保存这些数据使得系统性能数据有存档的地方，完善接口属性
 
 
-您也在使用RAP?请 [在这里](https://github.com/thx/RAP/issues/272) 更新您的公司.
+
+
